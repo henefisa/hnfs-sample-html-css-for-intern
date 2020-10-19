@@ -230,9 +230,16 @@ a {
           margin: 50px 3% 0;
           border-radius: 10px;
           overflow-y: auto;
-          .guide-title {
-            font-weight: bold;
-            font-size: 1.75rem;
+          .title-wrapper {
+            height: 73px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            overflow: hidden;
+            .guide-title {
+              font-weight: bold;
+              font-size: 1.75rem;
+            }
           }
           .line {
             background: #ff4081 0% 0% no-repeat padding-box;

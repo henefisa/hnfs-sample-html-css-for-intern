@@ -226,7 +226,14 @@ a {
   border-radius: 10px;
   overflow-y: auto;
 }
-.container section.guides .guide-container .guide .guide-title {
+.container section.guides .guide-container .guide .title-wrapper {
+  height: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.container section.guides .guide-container .guide .title-wrapper .guide-title {
   font-weight: bold;
   font-size: 1.75rem;
 }
